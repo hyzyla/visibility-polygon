@@ -1,0 +1,12 @@
+Для запуску з сирцевого коду потрібно:
+1. Python >= 3.6
+2. Встановити залежності pip install -r requirements.txt
+3. Запустити скрипт python src/presentation.py
+
+Для запуску з будь-якого дистрибутиву Linux:
+1. Запустити dist/./presentation
+
+Для збірки бінарого файлу для інших ОС потрібно:
+1. Python > 3.6
+2. Встановити залежності pip install -r requirements.txt
+3. Запустити збірку pyintstaller presentation.spec
